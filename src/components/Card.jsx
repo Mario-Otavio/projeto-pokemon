@@ -80,7 +80,7 @@ const Card = ({ nome, image, tipos, pokemon }) => {
                 <div key={index} className="flex flex-col items-center gap-1">
                   <img
                     className="w-5 h-5"
-                    src={`./src/assets/elementos/${tipo}.png`}
+                    src={`./elementos/${tipo}.png`}
                     alt={tipo}
                   />
                   <span
